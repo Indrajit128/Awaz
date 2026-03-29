@@ -107,7 +107,7 @@ export default function PackagesPage() {
           <p className="text-sm text-text-2 leading-relaxed">
             Every call you join or start is billed at <strong>₹10 per minute</strong>. 
             Billing starts only when the call is connected. If you have less than ₹10 in your wallet, 
-            you won't be able to start a new call.
+            you won&apos;t be able to start a new call.
           </p>
         </div>
       </div>
