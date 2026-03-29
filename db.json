@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": "cluz-admin-123",
+      "name": "Arjun Singh",
+      "email": "arjun@awaaz.in",
+      "role": "ADMIN",
+      "walletBalance": 1000,
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+    },
+    {
+      "id": "cluz-user-456",
+      "name": "Priya Sharma",
+      "email": "priya@awaaz.in",
+      "role": "USER",
+      "walletBalance": 250,
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop"
+    },
+    {
+      "id": "user-1774763640552",
+      "email": "indrajit123@gmail.com",
+      "name": "indrajit123",
+      "role": "USER",
+      "walletBalance": 450
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx-1774763697591",
+      "createdAt": "2026-03-29T05:54:57.591Z",
+      "userId": "user-1774763640552",
+      "amount": 100,
+      "type": "CREDIT",
+      "source": "RAZORPAY",
+      "metadata": "{\"razorpay_payment_id\":\"pay_simulated_1774763697591\"}"
+    },
+    {
+      "id": "tx-1774763715322",
+      "createdAt": "2026-03-29T05:55:15.322Z",
+      "userId": "user-1774763640552",
+      "amount": 250,
+      "type": "CREDIT",
+      "source": "RAZORPAY",
+      "metadata": "{\"razorpay_payment_id\":\"pay_simulated_1774763715322\"}"
+    }
+  ],
+  "calls": []
+}
